@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div id="main">
+    <div id="main" class="relative">
         <div class="bg-blue2 flex justify-between px-[10%] h-[100px] pt-3 text-white">
             <div class="ifos">
                 info1
@@ -18,10 +18,35 @@
                 info2
             </div>
         </div>
-        <div class="bg-white w-[60%] flex justify-center">nav
-            nav
+        <div
+            class="bg-white absolute top-[50px] left-[10%] w-[80%] h-[100px] border-[5px] border-blue1 rounded-[20px] flex justify-between items-center px-[20px] z-20">
+            <div>
+                logo
+            </div>
+            <div>
+                menu
+            </div>
         </div>
-        <div class="bg-blue1">header</div>
+        <div class="relative bg-blue1  w-full h-[650px]">
+            <div
+                class="absolute flex justify-start items-center px-[10%] top-0 right-0 bottom-0 left-0 bg-gradient-to-r from-blue1 from-[50%] z-10">
+                <div class="">
+                    <h1 class="text-[60px] text-white font-extrabold leading-[70px] ">souhaitez-vous acquerir
+                        <span class="block text-blue2">des competences</span>
+                        numeriques ?
+                    </h1>
+                    <a href="#"
+                        class="bg-white px-[15px] text-[20px] font-semibold py-[10px] text-blue2 rounded-lg hover:bg-blue1 hover:border-[2px] hover:text-white ">voir
+                        nos
+                        formatin</a>
+                </div>
+            </div>
+            <img src="images/bg1.png" class="absolute bottom-0 right-0 w-[900px]">
+        </div>
+
+        <section class="width-full">
+            <h1 class="text-center">mes blocs</h1>
+        </section>
     </div>
 </body>
 
